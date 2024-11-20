@@ -1,0 +1,19 @@
+CODE SMELLS
+
+1. 6-198,large class,inventory system class is too long and has too many responsibilities
+
+2. 14-19,27-29,primititive obsession,(category,discount type,createdAt,customerInfo these should be    individual small class)
+
+3. 45-48,77-102,conditional complexity & switch statements,too much if else and switch condition.
+
+4. 10-21,23-37,lazy class,(product,order,orderItem class dont have any responsibility or method)
+
+5. 41,Long parameter list,addProduct method has more than three parameter
+
+6. 41-72,74-102,132-167,Long method,the method is more than 10 lines
+
+7. 104-130,170-198,Duplicate Code,the code fragments of different methods are similar.
+
+8. 104-130,170-198,Shotgun Surgery,as the codes are similar, for a single change we need to make change in all of the records simultaneously.
+
+9. 106-107,114,124,Message Chain,for calling one specific method we have to call many classes.
